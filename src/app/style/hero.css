@@ -130,8 +130,13 @@
 }
 
 @media (max-width: 640px) {
+  #hero{
+    margin-left: -20px;
+   }
   .sm {
-      font-size: 30px /* 36px */;
-      line-height: 2px ;
+    
+      font-size: 40px /* 36px */;
+      line-height: 0px ;
   }
+ 
 }

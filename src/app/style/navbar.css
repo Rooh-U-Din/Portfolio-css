@@ -83,3 +83,10 @@
       gap: 2rem;
     }
   }
+
+  @media (max-width: 640px) {
+    .navbar{
+    max-width: 390px;
+    }
+   
+  }
