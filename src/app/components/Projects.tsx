@@ -1,17 +1,18 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
+import '../style/projects.css'
+import React from 'react';
+import ProjectCard from './ProjectCard';
 
-interface card{
-  id: number,
-  title: string,
-  deacription: string,
-  image: string,
-  previewUrl: string,
-  gitUrl: string,
-  tag: string[]
+interface card {
+  id: number;
+  title: string;
+  deacription: string;
+  image: string;
+  previewUrl: string;
+  gitUrl: string;
+  tag: string[];
 }
 
-const projectsData:card[] = [
+const projectsData: card[] = [
   {
     id: 1,
     title: "Resume",
@@ -20,7 +21,6 @@ const projectsData:card[] = [
     previewUrl: "https://milestone-1and2.vercel.app/",
     gitUrl: "https://github.com/Rooh-U-Din/Milstone-1and2.git",
     tag: ["All", "Web"],
-    
   },
   {
     id: 2,
@@ -30,7 +30,6 @@ const projectsData:card[] = [
     previewUrl: "https://milestone-5-bice-six.vercel.app/",
     gitUrl: "https://github.com/Rooh-U-Din/Milestone-5.git",
     tag: ["All", "Web"],
-    
   },
   {
     id: 3,
@@ -40,15 +39,14 @@ const projectsData:card[] = [
     previewUrl: "https://hackatho-design-02.vercel.app/",
     gitUrl: "https://github.com/Rooh-U-Din/Hackatho-Design-02.git",
     tag: ["All", "Web"],
-    
   },
 ];
 
 function Projects() {
   return (
-    <div className='' id='projects'>
-      <h2 className='text-center text-4xl font-bold text-white mt-4 p-4'>My Projects</h2>
-      <div className='grid md:grid-cols-3 mt-9 mx-12 gap-4'>
+    <div className="projects-container" id="projects">
+      <h2 className="projects-title">My Projects</h2>
+      <div className="projects-grid">
         {projectsData.map((project) => (
           <ProjectCard
             key={project.id}
@@ -57,7 +55,6 @@ function Projects() {
             imgUrl={project.image}
             gitUrl={project.gitUrl}
             previewUrl={project.previewUrl}
-
           />
         ))}
       </div>
@@ -66,4 +63,3 @@ function Projects() {
 }
 
 export default Projects;
-

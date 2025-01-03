@@ -1,0 +1,17 @@
+.navlink {
+    display: block;
+    padding: 0.5rem 0;
+    color: #d1d5db;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+  }
+  
+  .navlink:hover {
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .navlink {
+      padding: 0;
+    }
+  }
