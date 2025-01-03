@@ -9,10 +9,10 @@ function Hero() {
     <div>
       <div className="grid-container">
         <div className="col-span-7">
-          <h1 className="text-white margin-bottom-6 ">
+          <h1 className="sm text-white margin-bottom-6 ">
             <span className="text-transparent bg-clip-text bg-gradient  sm:text-4xl md:text-8xl"> Hello I am </span> 
             <div className="margin-top-60"></div>
-            <span className="inline-block  sm:text-4xl md:block md:text-8xl">
+            <span className="inline-block   md:block md:text-8xl">
             <TypeAnimation
       sequence={[
         'Rooh-U-Din',
@@ -30,7 +30,7 @@ function Hero() {
     />
     </span>
           </h1>
-          <p className="text-gray-200 text-xl md:block">
+          <p className="text-gray-200 text-lg md:block">
             Portfolio for school assignment
           </p>
           <div>
