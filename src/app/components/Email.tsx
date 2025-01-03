@@ -11,10 +11,10 @@ function Email() {
       />
       <div className="contact-container">
         <div className="contact-details">
-          <h5 className="contact-subtitle">Let's Connect</h5>
+          <h5 className="contact-subtitle">Lets Connect</h5>
           <p className="contact-description">
-            I'm currently looking for new opportunities. My inbox is always open.
-            Whether you have a question or just want to say hi, I'll try my best
+            I am currently looking for new opportunities. My inbox is always open.
+            Whether you have a question or just want to say hi I will try my best
             to get back to you!
           </p>
           <div className="social-links">
