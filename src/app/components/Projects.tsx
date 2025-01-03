@@ -17,7 +17,7 @@ const projectsData:card[] = [
     title: "Resume",
     deacription: "Projects",
     image: "/photos/resume.png",
-    previewUrl: "https://milstone-1and2.vercel.app/",
+    previewUrl: "https://milestone-1and2.vercel.app/",
     gitUrl: "https://github.com/Rooh-U-Din/Milstone-1and2.git",
     tag: ["All", "Web"],
     
@@ -46,7 +46,7 @@ const projectsData:card[] = [
 
 function Projects() {
   return (
-    <div className=''>
+    <div className='' id='projects'>
       <h2 className='text-center text-4xl font-bold text-white mt-4 p-4'>My Projects</h2>
       <div className='grid md:grid-cols-3 mt-9 mx-12 gap-4'>
         {projectsData.map((project) => (

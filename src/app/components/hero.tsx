@@ -41,7 +41,7 @@ function Hero() {
             <div className="">
             <Image src="/photos/profile.png"
             alt="profile"
-            className="object-cover py-[25%] mt-[-100]  h-[450] w-[400] lg:h-[700] lg:w-[700] lg:mt-[-200px] lg:ml-[-10] rounded-full"
+            className="object-cover py-[25%] mt-[-100]  h-[450] w-[400] lg:h-[700] lg:w-[700] lg:m-[-200px] lg:mx-[-10] rounded-full"
             height={1100}
             width={1100}></Image>
             </div>
